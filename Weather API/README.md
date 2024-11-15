@@ -30,7 +30,7 @@ Custom connector setup
 ![Todays Weather](https://github.com/Goldenlady0940/Power-Platform/blob/main/Weather%20API/Screenshot%202024-11-15%20144619.png)
 
 in Fahrenite
-![Todays Weather](https://github.com/Goldenlady0940/Power-Platform/blob/main/Weather%20API/Screenshot%202024-11-15%20135007.png)
+![Todays Weather](https://github.com/Goldenlady0940/Power-Platform/blob/main/Weather%20API/Screenshot%202024-11-15%20144954.png)
 
 in celcius
 ![Todays Weather](https://github.com/Goldenlady0940/Power-Platform/blob/main/Weather%20API/Screenshot%202024-11-15%20135007.png)
