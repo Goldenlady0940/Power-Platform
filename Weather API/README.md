@@ -1,39 +1,30 @@
-# Document Management System (DMS)
+# ClimaCast Weather Application
 
 ## Overview
-The Document Management System (DMS) is a robust system designed to efficiently organize, control, and manage documents within an organization. It focuses on features such as document organization, version control, approval workflows, metadata management, user access, security, and automation.
+The ClimaCast Weather Application is a user-friendly weather forecasting system designed to display current and hourly weather data for selected cities. It focuses on presenting key weather details, hourly temperature trends, and specific weather metrics such as sunrise and sunset times, rain probability, and UV index.
 
 ## Features
-## Automation  
+## Today’s Forecast  
 
-1. Automated Approval Flow: When a new file is added to the document library, an automated flow is triggered. It sends an approval request and updates the document's status to either "rejected" or "approved" based on the response received.
-   - If the document is rejected, it is moved to another folder.
-2. Automatic Deletion of Rejected Files: Another automation is in place to check whether the files in the rejected folder have been there for more than seven days. If so, the automation deletes those files.
-   - ![Screenshot 2023-12-20 170030](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/62d4ee4f-f2b8-4408-9c81-7bbe77cb06c9)
-   - ![Screenshot 2023-12-20 170058](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/06fa68ba-96dc-4046-badc-24edf8e2e0a9)
-   - ![Screenshot 2023-12-20 170220](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/bbbe3be6-3433-4db3-bb2e-7518b5fafa3e) 
- ### Customizations
-1. Customized Document Formatting: The documents or files within the DMS have been customized using JSON formatting, allowing for a tailored and visually appealing display.
-      - ![Screenshot 2023-12-20 162918](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/616e0c8c-c5c4-42ab-b733-fd659ab1c341)
-        
- ### Views
-1. Additional Views:
-   - Approved Files View: This view displays only the approved files, providing a quick overview of the documents that have undergone the approval process successfully.
-   - ![Screenshot 2023-12-20 164848](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/0b55c734-f5ea-4eb2-b0b3-e694faf5a33e)
-   - Grouped by Calendar View: Documents are grouped based on calendar events, making it convenient for managing documents associated with specific deadlines or dates.
-   - ![Screenshot 2023-12-20 163729](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/796962bc-a512-4b92-ac71-5cbbe83bd20f)
-   - Recently Viewed by Owner View: This view shows the documents recently accessed by the owner, facilitating easy retrieval of recently accessed files.
-   - ![Screenshot 2023-12-20 163005](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/eb83e493-6961-4cdb-99c6-4fd45488b700)
-     
- ### User Permissions for Reading and Editing
-User access and security are essential aspects of a DMS:
+1. **Location and Temperature Range**: The app displays the selected city ("Andorra La Vella") along with the temperature range for the day, shown as **-1.3°C to 10.2°C**.
+  
+2. **Hourly Weather Forecast**: A detailed hourly breakdown for today, showing:
+   - **Icons** representing weather conditions (moon icons for night hours and sun icons for day hours).
+   - **Temperatures** displayed below each hour, ranging from -0.3°C at midnight to 9°C at 11:00 am.
 
-- Permissions: The system allows setting appropriate permissions for user groups, controlling access to documents and functionalities. Permissions can include read access, write access, delete access, upload access, and manage permissions.
-- User Groups: 
-Users can be divided into groups based on their roles and responsibilities, ensuring appropriate access rights.
--![Screenshot 2023-12-20 173037](https://github.com/CodePointCreativesPowerPlatform/Project-1-Document-Management-/assets/104963156/a410b49f-9fa3-4d64-814e-4b45b95ae4d9)
+### Weather Details
 
-To enhanceuser access control, the DMS includes the ability to assign specific permissions for reading and editing documents. This feature ensures that only authorized individuals can view and modify documents based on their assigned roles and responsibilities.
+1. **Sunrise and Sunset Times**: Displays the times for sunrise and sunset (sunset is shown as "5.4").
+   
+2. **Additional Weather Metrics**:
+   - **Chance of Rain**: 34%, indicating the likelihood of precipitation.
+   - **Pressure**: Displays the atmospheric pressure at **1021 mb**.
+   - **Wind Speed**: Measures wind speed at **5.4 km/h**.
+   - **UV Index**: The UV index is shown as **1.5 out of 10**.
+   - **Feels Like**: Indicates the perceived temperature, recorded as **8.5°C**.
+   - **Visibility**: Visibility is shown as **5.4**, presumably in kilometers.
 
+This structure provides users with an organized view of both the current weather and detailed forecast information, enhancing the usability and functionality of the weather application.
+![Todays Weather](https://github.com/Goldenlady0940/Power-Platform/blob/main/Weather%20API/Screenshot%202024-11-15%20135007.png)
 Contact Me
 - LinkedIn: <a href="https://www.linkedin.com/in/sebrina-abdulrezak-7a0ba6230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Sebrina Abdulrezak </a>
