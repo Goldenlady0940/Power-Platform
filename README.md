@@ -25,5 +25,6 @@ The ClimaCast Weather Application is a user-friendly weather forecasting system 
    - **Visibility**: Visibility is shown as **5.4**, presumably in kilometers.
 
 This structure provides users with an organized view of both the current weather and detailed forecast information, enhancing the usability and functionality of the weather application.
+![Todays Weather](C:/Users/Hp/Desktop/resume/Power-Platform/Weather API/Screenshot 2024-11-15 135007.png)
 Contact Me
 - LinkedIn: <a href="https://www.linkedin.com/in/sebrina-abdulrezak-7a0ba6230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Sebrina Abdulrezak </a>
